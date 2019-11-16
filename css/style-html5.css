@@ -1,0 +1,409 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	color: #fff;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;		
+}
+
+header {
+	padding-top: 40px;
+}
+
+.nav {
+	margin-top: 10px;
+}
+
+.nav-item {
+	text-transform: uppercase;
+}
+
+.navbar-toggler.toggler-example {
+	cursor: pointer;
+}
+
+.bg-dark {
+	background-color: #87509c !important;
+}
+
+.navbar-toggler {
+	background-color: #87509c;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+li :hover {
+	background-color: #643a79;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+}
+
+main {
+ 	text-align: center;
+	margin-top: 70px;
+	padding-bottom: 100px;
+}
+
+main h1 {
+	padding-bottom: 35px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+#work-with-us-btn {
+	margin-top: 10px;
+	color: #fff;
+	background-color: #eb7d4b;
+	text-transform: uppercase;
+	font-size: 15px;
+	border: none;
+	padding: 15px 0 15px 0;
+	border-bottom: 3px solid #eb7d4b;
+}
+
+#work-with-us-btn:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #c86a40;
+}
+
+#work-with-us-btn:focus {
+	text-decoration: none;
+	color: #c86a40;
+	border-bottom: 3px solid #c86a40;
+}
+
+section {
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section h2 {
+	letter-spacing: 6px;
+}
+
+#skills-img, #portfolio-img, #services-img,  #get-in-touch-form {
+	padding-top: 20px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#portfolio-img img {
+ 	width: 100%;
+}
+
+#portfolio-btn {
+	padding-top: 0px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+ 
+#about-us-testimonials {
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+#footer-links {
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+}
+
+article p {
+	padding-top: 15px;
+}
+
+.card-deck {
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.card {
+	background: none;
+	text-align: center;
+	border: none;
+}
+
+.card img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rounded-circle {
+	width: 150px;
+}
+
+.card-body h5 {
+	padding-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.card-body h6 {
+	font-size: 13px;
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+.card-footer {
+	padding: none;
+	background-color: #e7f1f8;
+	border-top: none;
+}
+
+i {
+	background-color: #bdd1df;
+	width: 25px;
+	height: 25px;
+	font-size: 12px;
+	border-radius: 50%;
+	border: 1px solid #bdd1df;
+	text-align: center;
+	margin: 5px;
+	padding: 6px;
+	color: #fff;
+}
+
+#load-more-projects-btn {
+	margin-top: 10px;
+	color: #fff;
+	background-color: #17c2a4;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 15px 0 15px 0;
+	border-bottom: 3px solid #17c2a4;	
+}
+
+#load-more-projects-btn:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #14a58c;	
+}
+
+#load-more-projects-btn:focus {
+	text-decoration: none;
+	color: #14a58c;
+	border-bottom: 3px solid #14a58c;	
+}
+
+.form-control {
+	background-color: #273a71;
+	color: #fff;
+	border: none;
+}
+
+#inputName, #inputEmail, #inputMessage {
+	background-color: #273a71;
+	color: #fff;
+}
+
+#inputName::-webkit-input-placeholder, #inputEmail::-webkit-input-placeholder, #inputMessage::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#inputName::-moz-placeholder, #inputEmail::-moz-placeholder, #inputMessage::-moz-placeholder, #inputName::-moz-placeholder, #inputEmail::-moz-placeholder, #inputMessage::-moz-placeholder {
+	color: #fff;
+}
+
+#inputName::-ms-input-placeholder, #inputEmail::-ms-input-placeholder, #inputMessage::-ms-input-placeholder {
+	color: #fff;
+}
+
+#send-message-btn {
+	margin-top: 10px;
+	color: #fff;
+	background-color: #30bae7;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 15px 0 15px 0;
+	border-bottom: 3px solid #30bae7;	
+}
+
+#send-message-btn:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #299ec5;	
+}
+
+#send-message-btn:focus {
+	text-decoration: none;
+	color: #299ec5;
+	border-bottom: 3px solid #299ec5;	
+}
+
+#main-con {
+ 	background: #87509c;
+}
+
+#services-con {
+ 	background: #17c2a4;
+}
+
+#services-con img {
+	padding-bottom: 35px;
+}
+
+#services-con #underline-con2 {
+	border-bottom: 3px solid #14a58c;
+}
+
+#team-con {
+ 	background: #e7f1f8;
+ 	color: #3c4761;
+}
+
+#team-con #underline-con3 {
+	border-bottom: 3px solid #c8d9e5;
+}
+
+#team-con .card-body h5 {
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+#team-con .card-body h6 {
+	color: #30bae7;
+	line-height: 25px;
+}
+
+#skills-con {
+ 	background: #ffffff;
+ 	color: #3c4761;
+}
+
+#skills-con img {
+	padding-bottom: 35px;
+}
+
+#skills-con #underline-con4 {
+	border-bottom: 3px solid #dfe8ed;
+}
+
+#portfolio-con {
+ 	background: #ffdd99;
+ 	color: #393939;
+}
+
+#portfolio-con a h4 {
+	color: #393939;
+}
+
+#portfolio-con a h4:hover, a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+#portfolio-con #underline-con5 {
+	border-bottom: 3px solid #e5c37f;
+}
+
+#portfolio-con .btn-group-vertical>.btn, .btn-group>.btn {
+	background: #ebc985;
+	color: #393939;
+	border: none;
+	text-transform: uppercase;
+	padding: 5px 20px 5px 20px;
+	margin: 5px;
+}
+
+#portfolio-con .btn-group-vertical>.btn:hover, .btn-group>.btn:hover {
+	background: #fff;
+}
+
+#about-us-con {
+ 	background: #d74680;
+}
+
+#about-us-con #underline-con6 {
+	border-bottom: 3px solid #b73c6d;
+}
+
+#about-us-con .rounded-circle {
+	width: 80px;
+}
+
+#about-us-con .card-body h5 {
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+#about-us-con .card-body h6 {
+	color: #ffdd99;
+}
+
+#about-us-con .card-text {
+ 	font-style: italic;
+ 	text-align: left;
+}
+
+#about-us-con .card-title {
+	text-align: left;
+}
+
+#about-us-con .card img {
+ 	margin-top: 20px;
+}
+
+#get-in-touch-con {
+ 	background: #3c5499;
+}
+
+#get-in-touch-con #underline-con7 {
+	border-bottom: 3px solid #273a71;
+}
+
+footer {
+	background: #344b8e;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+footer .nav-link:hover {
+	color: #30bae7;
+}
+
+@media (min-width: @screen-sm-min) { 
+
+ 	#portfolio-img img {
+ 		width: 100%;
+ 	}
+
+ 	.card-body h5 {
+		padding-top: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height: 7px;
+	}
+}
